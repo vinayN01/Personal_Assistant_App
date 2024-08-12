@@ -1,0 +1,106 @@
+
+   .expense-tracker-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.expenses-list {
+    margin-bottom: 20px;
+}
+
+.expense-item {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.expense-item p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.expense-item span {
+    font-weight: bold;
+}
+
+.expense-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.edit-button, .delete-button {
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.edit-button {
+    background-color: #ffc107;
+    color: #fff;
+}
+
+.edit-button:hover {
+    background-color: #e0a800;
+}
+
+.delete-button {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.delete-button:hover {
+    background-color: #c82333;
+}
+
+.expense-form, .monthly-calculation {
+    margin-bottom: 20px;
+}
+
+.input-field {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ced4da;
+    margin-right: 10px;
+    width: calc(100% - 120px);
+    box-sizing: border-box;
+}
+
+.action-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.action-button:hover {
+    background-color: #0056b3;
+}
+
+.total-expenses {
+    margin-top: 20px;
+}
+
+.total-expenses h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #343a40;
+}
+
+.total-expenses p {
+    font-size: 16px;
+    color: #495057;
+}

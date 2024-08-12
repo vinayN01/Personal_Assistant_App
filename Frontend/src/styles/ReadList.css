@@ -1,0 +1,43 @@
+.readlist-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.readlist-cards-container {
+  display: flex;
+  flex-wrap: nowrap; /* Prevent wrapping */
+  overflow-x: auto; /* Enable horizontal scrolling */
+  padding-bottom: 10px; /* Space for scroll bar */
+  gap: 20px;
+}
+
+.readlist-card {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  overflow: hidden;
+  flex: 0 0 auto; /* Prevent the card from shrinking */
+  width: 200px; /* Adjust width as needed */
+  text-align: center;
+  padding: 10px;
+}
+
+.readlist-cover {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.readlist-info {
+  margin-top: 10px;
+}
+
+.readlist-info h3 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.readlist-info p {
+  font-size: 14px;
+  margin: 5px 0;
+}
